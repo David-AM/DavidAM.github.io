@@ -2,7 +2,6 @@ require([
   "esri/WebScene",
   "esri/views/SceneView",
   "esri/layers/FeatureLayer",
-  "esri/widgets/Legend",
 
   "esri/Graphic",
   "esri/geometry/Point",
