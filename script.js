@@ -74,7 +74,7 @@ require([
             type: "line",
             size: "1px",
             material: {
-              color: [86, 72, 31], // Default color
+              color: [86, 72, 31],
             },
           },
         ],
@@ -84,10 +84,10 @@ require([
           type: "color",
           field: "elevation",
           stops: [
-            { value: 400, color: [0, 255, 0] }, // Green for lower elevation
-            { value: 600, color: [255, 255, 0] }, // Yellow for moderate elevation
-            { value: 800, color: [255, 165, 0] }, // Orange for higher elevation
-            { value: 1000, color: [255, 0, 0] }, // Red for the highest elevation
+            { value: 400, color: [0, 255, 0] }, 
+            { value: 600, color: [255, 255, 0] },
+            { value: 800, color: [255, 165, 0] }, 
+            { value: 1000, color: [255, 0, 0] }, 
           ],
         },
       ],
@@ -306,6 +306,16 @@ require([
   view.graphics.addMany([zurichLabel, zurichSymbol, zurichLakeLabel]);
 
   const bookmarks = {
+    reset:{
+      position: {
+        x: 2694307.39164,
+        y: 1245619.17789,
+        z: 100890.937,
+        spatialReference: 2056,
+      },
+      heading: 0.0,
+      tilt: 1,
+    },
     home: {
       position: {
         x: 2725234.40979,
@@ -346,7 +356,7 @@ require([
       heading: 315.97,
       tilt: 47.53,
     },
-    east: {
+    west: {
       position: {
         x: 2695480.25078,
         y: 1224613.60231,
